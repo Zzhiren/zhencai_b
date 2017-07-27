@@ -1,0 +1,171 @@
+/*@charset "utf-8";*/
+/*.header_content {*/
+    /*width: 100%;*/
+    /*position: relative;*/
+/*}*/
+/*.header {*/
+    /*width: 100%;*/
+    /*height: 52px;*/
+    /*position: absolute;*/
+/*}*/
+/*.header_nav {*/
+    /*width: 100%;*/
+
+    /*position: relative;*/
+    /*background-color: gainsboro;*/
+/*}*/
+/*.logo_content {*/
+    /*position: relative;*/
+/*}*/
+/*.content {*/
+    /*width: 100%;*/
+    /*height: 800px;*/
+    /*position: absolute;*/
+/*}*/
+/*.content img {*/
+    /*width: 100%;*/
+/*}*/
+/*.aboutus_content {*/
+    /*width: 100%;*/
+/*}*/
+/*p {*/
+    /*font-size: 15px;*/
+/*}*/
+/*.logo1 {*/
+    /*width: 33px;*/
+    /*height: 22.5px;*/
+    /*margin: auto 0;*/
+    /*position: absolute;*/
+    /*top: 8px;*/
+    /*left: 15px;*/
+/*}*/
+/*.logo2 {*/
+    /*line-height: 22.5px;*/
+    /*width: 200px;*/
+    /*height: 22.5px;*/
+    /*margin: auto 0;*/
+    /*position: absolute;*/
+    /*top: 0px;*/
+    /*left: 0px;*/
+/*}*/
+/*.logo2 a {*/
+    /*line-height: 45px;*/
+    /*left: 15px;*/
+    /*-webkit-transition: visibility 10s;*/
+    /*visibility: hidden;*/
+/*}*/
+/*.fl {*/
+    /*float: left;*/
+/*}*/
+/*!*关于我们*!*/
+/*.introduce {*/
+    /*margin: 10px 15px;*/
+    /*position: relative;*/
+    /*display: block;*/
+/*}*/
+/*.introduce_table {*/
+    /*border-spacing: 13px;*/
+    /*border-collapse: separate;*/
+/*}*/
+/*.table_head {*/
+    /*width: 80px;*/
+    /*vertical-align: top;*/
+/*}*/
+/*.floor {*/
+    /*width: 100%;*/
+    /*height: 250px;*/
+    /*background-color: #2e2e2e;*/
+    /*position: relative;*/
+    /*padding: 15px 0;*/
+/*}*/
+/*.floor h1 {*/
+    /*color: white;*/
+    /*text-align: left;*/
+    /*font-size: 16px;*/
+    /*margin: 0 auto;*/
+/*}*/
+/*.contact_us {*/
+    /*width: 100%;*/
+    /*margin: 15px 20px;*/
+    /*position: relative;*/
+/*}*/
+/*.lacation h1 {*/
+    /*font-size: 15px;*/
+    /*font-family: Microsoft YaHei;*/
+    /*color: gainsboro;*/
+/*}*/
+/*.lacation {*/
+    /*width: 100%;*/
+    /*height: 20px;*/
+    /*position: relative;*/
+    /*display: block;*/
+    /*margin: 0 0 10px 0;*/
+    /*text-align: left;*/
+    /*padding-left: 10px;*/
+/*}*/
+/*.lacation img {*/
+    /*width: 13px;*/
+    /*height: 13px;*/
+    /*vertical-align: middle;*/
+/*}*/
+/*.lacation span {*/
+    /*color: gainsboro;*/
+    /*line-height: 20px;*/
+    /*text-decoration: none;*/
+    /*font-size: 10px;*/
+    /*-webkit-text-size-adjust:none;*/
+/*}*/
+/*.telephone_email {*/
+    /*width: 100%;*/
+    /*height: 15px;*/
+    /*position: relative;*/
+    /*display: block;*/
+    /*margin: 0 0 10px 0;*/
+    /*text-align: left;*/
+    /*padding-left: 10px;*/
+/*}*/
+/*.telephone_email span{*/
+    /*color: gainsboro;*/
+    /*line-height: 0px;*/
+    /*text-decoration: none;*/
+    /*font-size: 10px;*/
+    /*-webkit-text-size-adjust:none;*/
+/*}*/
+/*.telephone_email img {*/
+    /*width: 13px;*/
+    /*height: 13px;*/
+    /*vertical-align: middle;*/
+/*}*/
+/*.qr_code {*/
+    /*width: 100%;*/
+    /*text-align: center;*/
+/*}*/
+/*#qr_code {*/
+    /*width: 258px;*/
+    /*height: 100px;*/
+/*}*/
+/*.introduce_table tr td {*/
+    /*font-family: Microsoft YaHei;*/
+    /*font-size: 15px;*/
+    /*color: #333333;*/
+/*}*/
+/*.introduce p {*/
+    /*line-height: 25px;*/
+    /*font-family: Microsoft YaHei;*/
+    /*color: #333333;*/
+/*}*/
+/*#zc {*/
+    /*font-family: 华文行楷;*/
+    /*color: white;*/
+    /*font-size: 18px;*/
+/*}*/
+/*.first_a {*/
+    /*font-family: "Microsoft YaHei";*/
+    /*font-size: 15px;*/
+    /*color: #fffefe;*/
+/*}*/
+/*.second_a {*/
+    /*font-family: "Microsoft YaHei";*/
+    /*font-size: 12px;*/
+    /*color: #fffefe;*/
+/*}*/

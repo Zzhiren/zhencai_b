@@ -1,0 +1,97 @@
+<!DOCTYPE HTML>
+<html class="no-js" lang="en" style="background-color: #ebebeb;">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>臻财智慧科技</title>
+    <link rel="stylesheet" href="../css/more_news.css" media="all" />
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="https://cdn.bootcss.com/ionicons/2.0.1/css/ionicons.min.css"/>
+    <link rel="stylesheet" href="../css/common.css" media="all" />
+    
+    <!--<link rel="stylesheet" href="../css/circle.css"/>-->
+    <script src="../org/vue.min.js"></script>
+    <script src="../js/more_news.js"></script>
+    <script src="../org/jquery-1.11.1.min.js"></script>
+    
+
+</head>
+
+<body>
+    <!--<div class="cantiner">-->
+    <div class="news_bar">
+        <p>&nbsp;新闻动态</p>
+    </div>
+    &nbsp;
+    <div class="content">
+        <!--Start 新闻动态-->
+        <div id="news-data" class="news_list" v-loak>
+            <!--<button v-on:click="details">111</button>-->
+            
+            <ul>
+                <li v-cloak id="news" v-for="item in morenewsb_items" ref="newsList" v-bind:value="item.id" >
+                    <div class="li_news" v-on:click="jump(item.id,item.contenttype)">
+                        
+                        <div class="news">
+                            <div class="news_img">
+                                <img v-bind:src="item.thumbnailsurl" id="news_img">
+                            </div>
+                            <div class="news_content">
+                                <div class="news_title">
+                                    <p class="p_title">{{item.title.split('=')[0]}}</p>
+                                    <p class="p_content">{{item.title.split('=')[1]}}...</p>
+                                </div>
+                                <div class="news_date">
+                                    <span>{{item.createtime}}</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="li_floor" >
+                            <a class="more_a" >
+                            <span class="more_b">详情</span>
+                                <i class="icon ion-ios-arrow-forward more_c"></i> 
+                            </a>
+                            <!--<a class="more_a" href="../html/details.html?id={{item.id}}" v-on:click="jump(contents.contenttype)">
+                            <span class="more_b">详情</span>
+                                <i class="icon ion-ios-arrow-forward more_c"></i> 
+                            </a>-->
+                        </div>
+                    </div>
+                </li>
+                
+                <button id="mores" v-on:click="more()">更&nbsp;多</button>
+            </ul>
+            
+        </div>
+        &nbsp;
+    </div>
+
+    <!--加载动画-->
+    <!--<div class="circle">
+        <div class="sk-circle">
+        <div class="sk-circle1 sk-child"></div>
+        <div class="sk-circle2 sk-child"></div>
+        <div class="sk-circle3 sk-child"></div>
+        <div class="sk-circle4 sk-child"></div>
+        <div class="sk-circle5 sk-child"></div>
+        <div class="sk-circle6 sk-child"></div>
+        <div class="sk-circle7 sk-child"></div>
+        <div class="sk-circle8 sk-child"></div>
+        <div class="sk-circle9 sk-child"></div>
+        <div class="sk-circle10 sk-child"></div>
+        <div class="sk-circle11 sk-child"></div>
+        <div class="sk-circle12 sk-child"></div>
+      </div>
+    </div>-->
+
+    <script src="../org/jquery.meanmenu.js"></script>
+    <script src="../js/css.js"></script>
+    
+</body>
+
+</html>

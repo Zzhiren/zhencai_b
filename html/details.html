@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title>臻财智慧科技</title>
+    <link rel="stylesheet" href="../css/details.css">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/ionicons/2.0.1/css/ionicons.min.css" />
+    <script src="../org/vue.min.js"></script>
+    <script src="../js/details.js"></script>
+    <script src="../org/jquery-1.11.1.min.js"></script>
+
+</head>
+
+<body>
+    <div id="content">
+        <!--Start 标题-->
+        <div>
+            <p class="title">{{title.split('=')[0]}}</p>
+            <p class="publishtime">{{publishtime}}<a class="zc" href="javascript:;" onclick="jQuery('.box').show()">臻财智慧科技</a></p>
+        </div>
+        <!--End 标题-->
+        <div v-html="contents"></div>
+
+    </div>
+    <div class="box">
+        <div class="box1">
+            <a href="javascript:;" onclick="jQuery('.box').hide()" class="close">
+                <i class="icon ion-close"></i>
+            </a>
+            <div class="qrcode_b">
+                <img class="qrcode_b" src="../image/qrcode_b.png">
+                <p>长按二维码&nbsp;&nbsp;关注臻财智慧科技</p>
+            </div>
+        </div>
+    </div>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            document.body.style.display = "block";
+        });
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,173 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>臻财智慧科技</title>
+
+    <style>
+        /* Basic CSS */
+
+    </style>
+
+    <link rel="stylesheet" href="../meanmenu.css" media="all" />
+    <link rel="stylesheet" href="../css/common.css" media="all" />
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+    <link rel="stylesheet" href="../css/rs.css" />
+
+
+
+</head>
+
+<body>
+    <div class="header_nav">
+        <!--<div class="mean-bar">-->
+        <!--&lt;!&ndash;Start logo&ndash;&gt;-->
+        <!--<div class="logo2">-->
+        <!--<div id="logo" class="logo1 fl">-->
+        <!--<img id="img_logo" src="../image/logo1.png" width="100%" height="100%">-->
+        <!--</div>-->
+        <!--<a id="zc">臻财科技</a>-->
+        <!--</div>-->
+        <!--&lt;!&ndash;End logo&ndash;&gt;-->
+        <!--<a href="#nav" id="nav" class="meanmenu-reveal" style="'+meanStyles+'">Show Navigation</a>-->
+        <!--<nav class="mean-nav"></nav>-->
+        <!--</div>-->
+        <!--Start 下拉导航栏-->
+        <div class="header_content">
+            <div class="header">
+                <header>
+                    <nav>
+                        <ul>
+                            <li id="first_ul">
+                                <a class="first_a " id="first_a" href="#">产品<img id="up_down" src="../image/up.png" width="6" height="12"></a>
+                                <ul>
+                                    <!--<li><a class="second_a" href="classroom.html">智慧课堂</a></li>-->
+                                    <li><a class="second_a" href="class_card.html">电子班牌</a></li>
+                                    <li><a class="second_a" href="hs_connection.html">家校通</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="first_a" href="news.html">新闻动态</a>
+
+                            </li>
+                            <li><a class="first_a" href="about_us.html">关于我们</a>
+
+                            </li>
+                            <li><a class="first_a" href="#">加入我们</a>
+
+                            </li>
+                        </ul>
+                    </nav>
+                </header>
+            </div>
+        </div>
+        <!--End 下拉导航栏-->
+
+
+        <div class="content">
+            <img src="../image/news.png">
+            <!--Start 新闻动态-->
+
+            <div id="news-data" class="news_list" v-cloak>
+                <ul id="news_ul">
+                    <li id="news" v-for="item in news_items" v-for="itemb in morenewsb_items">
+                        <div class="news" v-on:click="jump(item.id,item.contenttype)">
+                            <div class="news_img">
+                                <img v-bind:src="item.thumbnailsurl" id="news_img">
+                            </div>
+                            <div class="news_content">
+                                <div class="news_title">
+                                    <p class="p_title">{{item.title.split('=')[0]}}</p>
+                                    <p class="p_content">{{item.title.split('=')[1]}}...</p>
+                                </div>
+                                <div class="news_date">
+                                    <span>{{item.createtime}}</span>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+
+            </div>
+            <!--End 新闻动态-->
+            <!--Start 更多-->
+            <div class="more">
+                <a href="../html/more_newsb.html"><span>>>>查看更多</span></a>
+            </div>
+            <!--End 更多-->
+            <!--Start 联系我们-->
+            <div class="floor">
+                <div class="contact_us">
+                    <div class="lacation_a">
+                        <h1>联系我们</h1>
+                    </div>
+                    <div class="lacation">
+                        <img src="../image/locate.png">
+                        <span class="qr_span">浙江省杭州市滨江区火炬大道581号三维大厦C座504</span>
+                    </div>
+                    <div class="telephone_email">
+                        <img src="../image/telephone.png">
+                        <span class="qr_span">0571-88811981</span> &nbsp&nbsp&nbsp&nbsp&nbsp
+                        <img src="../image/email.png">
+                        <span class="qr_span">xl＠zcxiaolian.com</span>
+                    </div>
+                </div>
+                <!--Start 新闻动态-->
+
+                <!--Start 二维码-->
+                <div class="qr_code">
+                    <img id="qr_code" src="../image/qr_code.png">
+                </div>
+                <!--<div style="text-align: center">
+                    <span style="color: #005180; font-family: 楷体">长按识别图中二维码，关注臻财智慧科技</span>
+                </div>-->
+                <div class="touch_div">
+                    <span class="touch_prompt">长按识别图中二维码，关注臻财智慧科技</span>
+                </div>
+                <!--End 二维码-->
+
+            </div>
+        </div>
+
+    </div>
+
+    <script src="../org/vue.min.js"></script>
+    <script src="../js/news.js"></script>
+    <script src="../org/jquery-1.11.1.min.js"></script>
+    <script src="../org/jquery.meanmenu.js"></script>
+    <script src="../js/css.js"></script>
+
+    <script>
+        jQuery(document).ready(function () {
+            jQuery('header nav').meanmenu();
+
+            //        //动态获取新闻页面中的新闻和内容区域的div宽度，然后重新设置宽高
+            //        var imgHeight = $('.news img').height(); //新闻图片的高度
+            //        var contentWidth = $('.news_content').width(); //news_content div的总宽度
+            //        var newsSpanHeight = $('.news_title span').height(); //new_title下span，也就是标题的高度
+            //        var newsDateHeight = $('.news_date').height();
+            //        $('.news_list').css('margin-bottom', '15px');
+            //        $('.news').css('height', imgHeight);
+            //        $('.news_content').css('height', imgHeight);
+            //        $('.news_title').css('width', contentWidth); //给news_title与父div一样的宽度
+            //        $('.news_title').css('height', newsSpanHeight + 1); //给news_title与span一样的高度
+            //
+            ////给新闻内容div设置高度和宽度，用父div高度减去标题高度，再减去日期高度，然后减去padding
+            //        var newscHeight = imgHeight - newsSpanHeight - newsDateHeight - 8; //新闻内容div高度
+            //        $('.news_c').css('height', newscHeight);
+            //        $('.news_c').css('width', contentWidth);
+            //        $('.news_c').css('position', 'absolute');
+            //        $('.news_c').css('top', newsSpanHeight + 6);
+
+            //给floor的img加上display：inline-block
+            //        $('.contact_us img').css('display', 'inline-block');
+            //        console.log(newscHeight);
+        });
+    </script>
+</body>
+
+</html>

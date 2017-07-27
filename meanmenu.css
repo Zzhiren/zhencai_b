@@ -1,0 +1,2881 @@
+/*iPhone 6P*/
+@media screen and (min-width: 410px) and (max-width:760px){
+
+    /* hide the link until viewport size is reached */
+    a.meanmenu-reveal {
+        display: none;
+        line-height: 50px;
+    }
+    /* when under viewport size, .mean-container is added to body */
+    .mean-container .mean-bar {
+        float: left;
+        width: 100%;
+        position: absolute;
+        /*background: #0c1923;*/
+        padding: 4px 0;
+        min-height: 42px;
+        z-index: 999999;
+        background: rgba(43, 43, 43, 0);
+        transition-property: background;
+        -webkit-transition: background 1.5s
+
+    }
+
+    .mean-container a.meanmenu-reveal {
+        width: 22px;
+        height: 22px;
+        padding: 13px 13px 11px 13px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        cursor: pointer;
+        color: #fff;
+        text-decoration: none;
+        font-size: 16px;
+        text-indent: -9999em;
+        line-height: 22px;
+        font-size: 1px;
+        display: block;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 700;
+    }
+
+    .mean-container a.meanmenu-reveal span {
+        display: block;
+        background: #fff;
+        height: 3px;
+        margin-top: 3px;
+    }
+
+    .mean-container .mean-nav {
+        float: left;
+        width: 100%;
+        /*background: #0c1923;*/
+        margin-top: 15px;
+        /*background:rgba(43,43,43,.75);*/
+    }
+
+    .mean-container .mean-nav ul {
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        list-style-type: none;
+    }
+
+    .mean-container .mean-nav ul li {
+        position: relative;
+        float: left;
+        width: 100%;
+    }
+
+    .mean-container .mean-nav ul li a {
+        display: block;
+        float: left;
+        width: 90%;
+        padding: 1em 5%;
+        margin: 0;
+        text-align: left;
+        color: #fff;
+        /*border-top: 1px solid #383838;*/
+        /*border-top: 1px solid rgba(255,255,255,0.5);*/
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+
+    .mean-container .mean-nav ul li li a {
+        width: 80%;
+        padding: 1em 10%;
+        /*border-top: 1px solid #f1f1f1;*/
+        /*border-top: 1px solid rgba(255,255,255,0.25);*/
+        opacity: 0.75;
+        filter: alpha(opacity=75);
+        text-shadow: none !important;
+        visibility: visible;
+    }
+
+    .mean-container .mean-nav ul li.mean-last a {
+        border-bottom: none;
+        margin-bottom: 0;
+    }
+
+    .mean-container .mean-nav ul li li li a {
+        width: 70%;
+        padding: 1em 15%;
+    }
+
+    .mean-container .mean-nav ul li li li li a {
+        width: 60%;
+        padding: 1em 20%;
+    }
+
+    .mean-container .mean-nav ul li li li li li a {
+        width: 50%;
+        padding: 1em 25%;
+    }
+
+    .mean-container .mean-nav ul li a:hover {
+        /*background: #252525;*/
+        /*background: rgba(255,255,255,0.WildDogDemo);*/
+    }
+
+    .mean-container .mean-nav ul li a.mean-expand {
+        margin-top: 1px;
+        width: 26px;
+        height: 32px;
+        padding: 12px !important;
+        text-align: center;
+        position: absolute;
+        right: 0;
+        top: 0;
+        z-index: 2;
+        font-weight: 700;
+        /*background: rgba(255,255,255,0.WildDogDemo);*/
+        border: none !important;
+        /*border-left: 1px solid rgba(255,255,255,0.4) !important;*/
+        /*border-bottom: 1px solid rgba(255,255,255,0.2) !important;*/
+        /*background:rgba(43,43,43,.75);*/
+    }
+
+    /*.mean-container .mean-nav ul li a.mean-expand:hover {*/
+    /*background: rgba(0,0,0,0.9);*/
+    /*}*/
+
+    .mean-container .mean-push {
+        float: left;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        clear: both;
+    }
+
+    .mean-nav .wrapper {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    /* Fix for box sizing on Foundation Framework etc. */
+    .mean-container .mean-bar, .mean-container .mean-bar * {
+        -webkit-box-sizing: content-box;
+        -moz-box-sizing: content-box;
+        box-sizing: content-box;
+        position: relative;
+    }
+
+    .mean-remove {
+        display: none !important;
+    }
+
+    /*----------------------------*/
+    .header_content {
+        width: 100%;
+        position: relative;
+    }
+
+    .header {
+        width: 100%;
+        height: 52px;
+        position: absolute;
+    }
+
+    .header_nav {
+        width: 100%;
+        position: relative;
+        background-color: gainsboro;
+    }
+
+    .logo_content {
+        position: relative;
+    }
+
+    .content {
+        width: 100%;
+        /*height: 700px;*/
+        position: absolute;
+    }
+
+    .image {
+        width: 100%;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .content img {
+        width: 100%;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .aboutus_content {
+        width: 100%;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+    .logo1 {
+        width: 33px;
+        height: 22.5px;
+        margin: auto 0;
+        /*position: absolute;*/
+        /*top: 8px;*/
+        /*left: 15px;*/
+    }
+
+    .logo2 {
+        line-height: 22.5px;
+        width: 200px;
+        height: 22.5px;
+        /*margin: auto 0;*/
+        margin-top: 8px;
+        margin-left: 15px;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        display: flex;
+    }
+
+    .logo2 a {
+        line-height: 45px;
+        left: 15px;
+        -webkit-transition: visibility 10s;
+        visibility: hidden;
+    }
+
+    .fl {
+        float: left;
+    }
+
+    /*关于我们*/
+    .introduce_table_div {
+        width: 100%;
+        position: relative;
+    }
+    .touch_div {
+        text-align: center;
+        margin-top: 5px;
+    }
+    .touch_prompt {
+        color: #005180;
+        font-size: 15px;
+    }
+    .introduce_table_div2 {
+        width: 90%;
+        position: relative;
+        margin: 0 auto;
+
+    }
+    .introduce {
+        margin: 10px 15px;
+        position: relative;
+        display: block;
+    }
+    .introduce p {
+        text-indent: 2em;
+    }
+
+    .introduce_table {
+        border-spacing: 13px;
+        border-collapse: collapse;
+        width: 100%;
+
+    }
+
+    .table_head {
+        width: 75px;
+        vertical-align: top;
+        border-spacing: 13px;
+        border-collapse: inherit;
+        padding: 0;
+
+    }
+    .table_content{
+        border-spacing: 13px;
+        border-collapse: inherit;
+        padding: 0;
+
+    }
+
+    .floor {
+        width: 100%;
+        height: 280px;
+        background-color: #2e2e2e;
+        position: relative;
+        padding-top: 15px;
+    }
+
+    .floor h1 {
+        color: white;
+        text-align: left;
+        font-size: 16px;
+        margin: 0 auto;
+        font-weight: bold;
+    }
+
+    .contact_us {
+        width: 80%;
+        margin: 15px 20px;
+        position: relative;
+    }
+    .contact_us img {
+        display: inline-block;
+    }
+    .lacation h1 {
+        font-size: 15px;
+        font-family: Microsoft YaHei;
+        color: gainsboro;
+    }
+
+    .lacation {
+        width: 100%;
+        height: 20px;
+        position: relative;
+        display: block;
+        margin: 0 0 15px 0;
+        text-align: left;
+        padding-left: 10px;
+    }
+    .lacation h1 {
+        font-size: 20px;
+    }
+    .qr_span {
+        font-size: 12px;
+    }
+
+    .lacation img {
+        width: 13px;
+        height: 13px;
+        vertical-align: middle;
+    }
+
+    /*.lacation span {*/
+    /*color: gainsboro;*/
+    /*line-height: 20px;*/
+    /*text-decoration: none;*/
+    /*font-size: 12px;*/
+    /*-webkit-text-size-adjust: none;*/
+    /*}*/
+    .qr_span {
+        color: gainsboro;
+        line-height: 20px;
+        text-decoration: none;
+        -webkit-text-size-adjust: none;
+    }
+    .telephone_email {
+        width: 100%;
+        height: 15px;
+        position: relative;
+        display: block;
+        margin: 0 0 10px 0;
+        text-align: left;
+        padding-left: 10px;
+    }
+
+    /*.telephone_email span {*/
+    /*color: gainsboro;*/
+    /*line-height: 0px;*/
+    /*text-decoration: none;*/
+    /*font-size: 12px;*/
+    /*-webkit-text-size-adjust: none;*/
+    /*}*/
+
+    .telephone_email img {
+        width: 13px;
+        height: 13px;
+        vertical-align: middle;
+    }
+
+    .qr_code {
+        width: 100%;
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    #qr_code {
+        width: 258px;
+        height: 100px;
+    }
+
+    .introduce_table tr td {
+        font-family: Microsoft YaHei;
+        font-size: 15px;
+        color: #333333;
+    }
+
+    .introduce p {
+        line-height: 25px;
+        font-family: Microsoft YaHei;
+        color: #333333;
+    }
+
+    #zc {
+        font-family: 华文行楷;
+        color: white;
+        font-size: 18px;
+    }
+
+    .first_a {
+        font-family: "Microsoft YaHei";
+        font-size: 15px;
+        color: #fffefe;
+    }
+
+    .second_a {
+        font-family: "Microsoft YaHei";
+        font-size: 12px;
+        color: #fffefe;
+    }
+
+    /*--------------动态新闻------------------*/
+    .news_list {
+        width: 100%;
+        /*margin-top: 15px;*/
+        position: relative;
+    }
+
+    .news {
+        width: 95%;margin: 0 auto;
+        vertical-align: middle;
+        display: flex;
+        display: -webkit-flex;
+        padding: 12px 6px;
+    }
+
+    .news_img {
+        /*width: 47%;*/
+        /*float: left;*/
+        flex: 0.47;
+        display:inline-block;
+    }
+    .news_img img {
+        display: block;
+        height: 8rem;
+        border-radius: 2px;
+    }
+
+    .news_content {
+        position: relative;
+        flex: 0.53;
+        padding-left: 5px;
+
+        /*float: right;*/
+        /*display: block;*/
+        /*width: 53%;*/
+        /*flex: 1;*/
+        /*text-align: left;*/
+        /*margin: 0 auto;*/
+        /*padding-left: 5px;*/
+    }
+    .news_title {
+        position: absolute;
+        top: 0;
+        /*font-size: 13px;*/
+        /*font-weight: bold;*/
+    }
+    .p_title {
+        font-size: 14px;
+        font-weight: bold;
+        margin: 0;
+        padding: 0;
+    }
+    .p_content {
+        font-size: 12px;
+        margin-top: 1px;
+    }
+    .news_c {
+        position: absolute;
+        font-size: 9px;
+        top: 18px;
+    }
+    .news_date {
+        bottom: 3px;
+        height: 10px;
+        position: absolute;
+        font-size: 11px;
+        right: 0;
+    }
+
+    /*---------电子班牌---------*/
+    .card_title {
+        text-align: center;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .card_title p {
+        margin-top: 15px;
+        margin-bottom: 0px;
+    }
+
+    .card_title table {
+        font-size: 12px;
+    }
+
+    .class_card_img {
+        width: 50%;
+        margin: 10px auto;
+    }
+
+    .class_card_introduce {
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+
+    .class_card_td_title {
+        font-size: 11px;
+        border: 1px solid black;
+        border-collapse: separate;
+        width: 25%;
+        text-align: center;
+        font-family: "Microsoft YaHei";
+    }
+
+    .class_card_td {
+        font-size: 11px;
+        border: 1px solid black;
+        border-collapse: separate;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-family: "Microsoft YaHei";
+
+    }
+
+    .class_card_div {
+        width: 95%;
+        margin: 0 auto 30px;
+    }
+
+    /*--------家校通-----------*/
+    .hs_content {
+        width: 100%;
+        display: inline-block;
+        position: relative;
+    }
+
+    .hs1 {
+        width: 90%;
+        height: 170px;
+        margin: 0 auto;
+        position: relative;
+        vertical-align: middle;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-align-items: center;
+        align-items: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+    }
+
+    .hs1_left {
+        width: 45%;
+        display: inline-block;
+        float: left;
+        position: relative;
+
+    }
+
+    .hs1_right {
+        width: 55%;
+        display: block;
+        float: right;
+        text-align: right;
+        line-height: 5px;
+        position: relative;
+    }
+
+    .hs1_right p {
+        font-size: 12px;
+        font-family: "Microsoft YaHei";
+    }
+
+    .hs1_right h5 {
+        color: #333333;
+        margin-top: 0px;
+        margin-bottom: 20px;
+    }
+
+    .hs1_title {
+        border-right: 2px solid deepskyblue;
+        height: 31px;
+        padding-right: 3px;
+    }
+
+    .hs1_title p {
+        line-height: 9px;
+
+    }
+
+    .hs_b {
+        background-color: #f5f5f5;
+        width: 100%;
+    }
+
+    .hs2 {
+        width: 90%;
+        height: 170px;
+        margin: 0 auto;
+        position: relative;
+        vertical-align: middle;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-align-items: center;
+        align-items: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        background-color: #f5f5f5;
+    }
+
+    .hs2_right {
+        width: 45%;
+        display: inline-block;
+        float: left;
+        position: relative;
+
+    }
+
+    .hs2_left {
+        width: 55%;
+        display: block;
+        float: right;
+        text-align: left;
+        line-height: 5px;
+        position: relative;
+    }
+
+    .hs2_left p {
+        font-size: 12px;
+        font-family: "Microsoft YaHei";
+    }
+
+    .hs2_left h5 {
+        color: #333333;
+        margin-top: 0px;
+        margin-bottom: 20px;
+    }
+
+    .hs2_title {
+        border-left: 2px solid deepskyblue;
+        height: 31px;
+        padding-left: 3px;
+    }
+
+    .hs2_title p {
+        line-height: 9px;
+
+    }
+
+    /*--------智慧课堂--------*/
+    .clroom_p {
+        margin: 15px 0;
+        text-indent: 2em;
+    }
+    .div1 {
+        width: 100%;
+        display: block;
+    }
+    .clroom_title {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .clroom_title h4 {
+        font-size: 16px;
+        font-family: "Microsoft YaHei";
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .clroom_title p {
+        /*line-height: 8px;*/
+        margin: 0;
+        padding: 0;
+    }
+    .div1 {
+        padding-top: 10px;
+    }
+    .div1 h4 {
+        text-align: center;
+        font-size: 18px;
+    }
+    .div2 {
+        background-color: #f7f7f7;
+        padding-top: 10px;
+    }
+    .div2 h4 {
+        text-align: center;
+        font-size: 18px;
+    }
+}
+
+/*iPhone 6*/
+@media screen and (max-width: 410px) and (min-width: 370px){
+
+    /* hide the link until viewport size is reached */
+    a.meanmenu-reveal {
+        display: none;
+        line-height: 50px;
+    }
+
+
+
+    /* when under viewport size, .mean-container is added to body */
+    .mean-container .mean-bar {
+        float: left;
+        width: 100%;
+        position: absolute;
+        /*background: #0c1923;*/
+        padding: 4px 0;
+        min-height: 42px;
+        z-index: 999999;
+        background: rgba(43, 43, 43, 0);
+        transition-property: background;
+        -webkit-transition: background 1.5s
+
+    }
+
+    .mean-container a.meanmenu-reveal {
+        width: 22px;
+        height: 22px;
+        padding: 13px 13px 11px 13px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        cursor: pointer;
+        color: #fff;
+        text-decoration: none;
+        font-size: 16px;
+        text-indent: -9999em;
+        line-height: 22px;
+        font-size: 1px;
+        display: block;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 700;
+    }
+
+    .mean-container a.meanmenu-reveal span {
+        display: block;
+        background: #fff;
+        height: 3px;
+        margin-top: 3px;
+    }
+
+    .mean-container .mean-nav {
+        float: left;
+        width: 100%;
+        /*background: #0c1923;*/
+        margin-top: 15px;
+        /*background:rgba(43,43,43,.75);*/
+    }
+
+    .mean-container .mean-nav ul {
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        list-style-type: none;
+    }
+
+    .mean-container .mean-nav ul li {
+        position: relative;
+        float: left;
+        width: 100%;
+    }
+
+    .mean-container .mean-nav ul li a {
+        display: block;
+        float: left;
+        width: 90%;
+        padding: 1em 5%;
+        margin: 0;
+        text-align: left;
+        color: #fff;
+        /*border-top: 1px solid #383838;*/
+        /*border-top: 1px solid rgba(255,255,255,0.5);*/
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+
+    .mean-container .mean-nav ul li li a {
+        width: 80%;
+        padding: 1em 10%;
+        /*border-top: 1px solid #f1f1f1;*/
+        /*border-top: 1px solid rgba(255,255,255,0.25);*/
+        opacity: 0.75;
+        filter: alpha(opacity=75);
+        text-shadow: none !important;
+        visibility: visible;
+    }
+
+    .mean-container .mean-nav ul li.mean-last a {
+        border-bottom: none;
+        margin-bottom: 0;
+    }
+
+    .mean-container .mean-nav ul li li li a {
+        width: 70%;
+        padding: 1em 15%;
+    }
+
+    .mean-container .mean-nav ul li li li li a {
+        width: 60%;
+        padding: 1em 20%;
+    }
+
+    .mean-container .mean-nav ul li li li li li a {
+        width: 50%;
+        padding: 1em 25%;
+    }
+
+    .mean-container .mean-nav ul li a:hover {
+        /*background: #252525;*/
+        /*background: rgba(255,255,255,0.WildDogDemo);*/
+    }
+
+    .mean-container .mean-nav ul li a.mean-expand {
+        margin-top: 1px;
+        width: 26px;
+        height: 32px;
+        padding: 12px !important;
+        text-align: center;
+        position: absolute;
+        right: 0;
+        top: 0;
+        z-index: 2;
+        font-weight: 700;
+        /*background: rgba(255,255,255,0.WildDogDemo);*/
+        border: none !important;
+        /*border-left: 1px solid rgba(255,255,255,0.4) !important;*/
+        /*border-bottom: 1px solid rgba(255,255,255,0.2) !important;*/
+        /*background:rgba(43,43,43,.75);*/
+    }
+
+    /*.mean-container .mean-nav ul li a.mean-expand:hover {*/
+    /*background: rgba(0,0,0,0.9);*/
+    /*}*/
+
+    .mean-container .mean-push {
+        float: left;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        clear: both;
+    }
+
+    .mean-nav .wrapper {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    /* Fix for box sizing on Foundation Framework etc. */
+    .mean-container .mean-bar, .mean-container .mean-bar * {
+        -webkit-box-sizing: content-box;
+        -moz-box-sizing: content-box;
+        box-sizing: content-box;
+        position: relative;
+    }
+
+    .mean-remove {
+        display: none !important;
+    }
+
+    /*----------------------------*/
+    .header_content {
+        width: 100%;
+        position: relative;
+    }
+
+    .header {
+        width: 100%;
+        height: 52px;
+        position: absolute;
+    }
+
+    .header_nav {
+        width: 100%;
+        position: relative;
+        background-color: gainsboro;
+    }
+
+    .logo_content {
+        position: relative;
+    }
+
+    .content {
+        width: 100%;
+        /*height: 700px;*/
+        position: absolute;
+    }
+
+    .image {
+        width: 100%;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .content img {
+        width: 100%;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .aboutus_content {
+        width: 100%;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+    .logo1 {
+        width: 33px;
+        height: 22.5px;
+        margin: auto 0;
+        /*position: absolute;*/
+        /*top: 8px;*/
+        /*left: 15px;*/
+    }
+
+    .logo2 {
+        line-height: 22.5px;
+        width: 200px;
+        height: 22.5px;
+        /*margin: auto 0;*/
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        margin-top: 8px;
+        margin-left: 15px;
+    }
+
+    .logo2 a {
+        line-height: 45px;
+        left: 15px;
+        -webkit-transition: visibility 10s;
+        visibility: hidden;
+    }
+
+    .fl {
+        float: left;
+    }
+
+    /*关于我们*/
+    .introduce_table_div {
+        width: 100%;
+        position: relative;
+    }
+    .touch_div {
+        text-align: center;
+        margin-top: 5px;
+    }
+    .touch_prompt {
+        color: #005180;
+        font-size: 15px;
+    }
+    .introduce_table_div2 {
+        width: 90%;
+        position: relative;
+        margin: 0 auto;
+
+    }
+    .introduce {
+        margin: 10px 15px;
+        position: relative;
+        display: block;
+    }
+    .introduce p {
+        text-indent: 2em;
+    }
+
+    .introduce_table {
+        border-spacing: 13px;
+        border-collapse: collapse;
+        width: 100%;
+
+    }
+
+    .table_head {
+        width: 75px;
+        vertical-align: top;
+        border-spacing: 13px;
+        border-collapse: inherit;
+        padding: 0;
+
+    }
+    .table_content{
+        border-spacing: 13px;
+        border-collapse: inherit;
+        padding: 0;
+
+    }
+
+    .floor {
+        width: 100%;
+        height: 280px;
+        background-color: #2e2e2e;
+        position: relative;
+        padding-top: 15px;
+    }
+
+    .floor h1 {
+        color: white;
+        text-align: left;
+        font-size: 16px;
+        margin: 0 auto;
+        font-weight: bold;
+    }
+
+    .contact_us {
+        width: 80%;
+        margin: 15px 20px;
+        position: relative;
+    }
+
+    .contact_us img {
+        display: inline-block;
+    }
+
+    .lacation h1 {
+        font-size: 15px;
+        font-family: Microsoft YaHei;
+        color: gainsboro;
+    }
+
+    .lacation {
+        width: 100%;
+        height: 20px;
+        position: relative;
+        display: block;
+        margin: 0 0 15px 0;
+        text-align: left;
+        padding-left: 10px;
+    }
+    .lacation h1 {
+        font-size: 20px;
+    }
+    .qr_span {
+        color: gainsboro;
+    }
+
+    .lacation img {
+        width: 13px;
+        height: 13px;
+        vertical-align: middle;
+        display: inline-block;
+    }
+
+    /*.lacation span {*/
+        /*color: gainsboro;*/
+        /*line-height: 20px;*/
+        /*text-decoration: none;*/
+        /*font-size: 12px;*/
+        /*-webkit-text-size-adjust: none;*/
+    /*}*/
+    .qr_span {
+        /*color: gainsboro;*/
+        line-height: 20px;
+        text-decoration: none;
+        font-size: 12px;
+        -webkit-text-size-adjust: none;
+    }
+    .telephone_email {
+        width: 100%;
+        height: 15px;
+        position: relative;
+        display: block;
+        margin: 0 0 10px 0;
+        text-align: left;
+        padding-left: 10px;
+    }
+
+    /*.telephone_email span {*/
+        /*color: gainsboro;*/
+        /*line-height: 0px;*/
+        /*text-decoration: none;*/
+        /*font-size: 12px;*/
+        /*-webkit-text-size-adjust: none;*/
+    /*}*/
+
+    .telephone_email img {
+        width: 13px;
+        height: 13px;
+        vertical-align: middle;
+        /*display: inline-block;*/
+    }
+
+    .qr_code {
+        width: 100%;
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    #qr_code {
+        width: 258px;
+        height: 100px;
+    }
+
+    .introduce_table tr td {
+        font-family: Microsoft YaHei;
+        font-size: 15px;
+        color: #333333;
+    }
+
+    .introduce p {
+        line-height: 25px;
+        font-family: Microsoft YaHei;
+        color: #333333;
+    }
+
+    #zc {
+        font-family: 华文行楷;
+        color: white;
+        font-size: 18px;
+    }
+
+    .first_a {
+        font-family: "Microsoft YaHei";
+        font-size: 15px;
+        color: #fffefe;
+    }
+
+    .second_a {
+        font-family: "Microsoft YaHei";
+        font-size: 12px;
+        color: #fffefe;
+    }
+
+    /*--------------动态新闻------------------*/
+    .news_list {
+        width: 100%;
+        /*margin-top: 15px;*/
+        position: relative;
+    }
+
+    .news {
+        width: 93%;
+        margin: 0 auto;
+        vertical-align: middle;
+        display: flex;
+        display: -webkit-flex;
+        padding: 6px;
+        /*height: 7rem;*/
+
+        /*!*height: 120px;*!*/
+        /*position: relative;*/
+        /*display: -webkit-flex;*/
+        /*display: flex;*/
+        /*-webkit-align-items: center;*/
+        /*align-items: center;*/
+        /*-webkit-justify-content: center;*/
+        /*justify-content: center;*/
+
+        /*flex-direction: row;*/
+        /*flex-wrap: wrap;*/
+    }
+
+    .news_img {
+        /*width: 47%;*/
+        /*float: left;*/
+        flex: 0.47;
+        -webkit-flex: 0.47;
+        display:inline-block;
+        height: 100%;
+    }
+    .news_img img {
+        display: block;
+        height: 7rem;
+        border-radius: 2px;
+    }
+
+    .news_content {
+        position: relative;
+        flex: 0.53;
+        -webkit-flex: 0.53;
+        padding-left: 5px;
+
+        /*float: right;*/
+        /*display: block;*/
+        /*width: 53%;*/
+        /*flex: 1;*/
+        /*text-align: left;*/
+        /*margin: 0 auto;*/
+        /*padding-left: 5px;*/
+    }
+    .news_title {
+        position: absolute;
+        top: 0;
+        /*font-size: 12px;
+        font-weight: bold;*/
+    }
+    .p_content {
+        font-size: 0.7em;
+        margin-top: 1px;
+        padding: 0;
+    }
+    .p_title {
+        font-size: 13px;
+        font-weight: bold;
+        margin: 0;
+        padding: 0;
+    }
+    .news_c {
+        position: absolute;
+        font-size: 8px;
+        /*top: 18px;*/
+    }
+    .news_date {
+        bottom: 0;
+        height: 10px;
+        position: absolute;
+        font-size: 10px;
+        right: 0;
+    }
+
+    /*.news_content h6 {*/
+        /*line-height: 0;*/
+        /*!*margin-top: 10px;*!*/
+        /*margin-bottom: 20px;*/
+        /*font-size: 11px;*/
+    /*}*/
+
+    /*.p1 {*/
+        /*font-size: 9px;*/
+        /*margin: 0 auto;*/
+    /*}*/
+
+    /*.p2 {*/
+        /*font-size: 9px;*/
+        /*margin-bottom: 0;*/
+        /*margin-left: 0;*/
+        /*margin-top: 15px;*/
+    /*}*/
+
+
+    /*---------电子班牌---------*/
+    .card_title {
+        text-align: center;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .card_title p {
+        margin-top: 15px;
+        margin-bottom: 0px;
+    }
+
+    .card_title table {
+        font-size: 12px;
+    }
+
+    .class_card_img {
+        width: 50%;
+        margin: 10px auto;
+    }
+
+    .class_card_introduce {
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+
+    .class_card_td_title {
+        font-size: 11px;
+        border: 1px solid black;
+        border-collapse: separate;
+        width: 25%;
+        text-align: center;
+        font-family: "Microsoft YaHei";
+    }
+
+    .class_card_td {
+        font-size: 11px;
+        border: 1px solid black;
+        border-collapse: separate;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-family: "Microsoft YaHei";
+
+    }
+
+    .class_card_div {
+        width: 95%;
+        margin: 0 auto 30px;
+    }
+
+    /*--------家校通-----------*/
+    .hs_content {
+        width: 100%;
+        display: inline-block;
+        position: relative;
+    }
+
+    .hs1 {
+        width: 90%;
+        height: 170px;
+        margin: 0 auto;
+        position: relative;
+        vertical-align: middle;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-align-items: center;
+        align-items: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+    }
+
+    .hs1_left {
+        width: 45%;
+        display: inline-block;
+        float: left;
+        position: relative;
+
+    }
+
+    .hs1_right {
+        width: 55%;
+        display: block;
+        float: right;
+        text-align: right;
+        line-height: 5px;
+        position: relative;
+    }
+
+    .hs1_right p {
+        font-size: 12px;
+        font-family: "Microsoft YaHei";
+    }
+
+    .hs1_right h5 {
+        color: #333333;
+        margin-top: 0px;
+        margin-bottom: 20px;
+    }
+
+    .hs1_title {
+        border-right: 2px solid deepskyblue;
+        height: 32px;
+        padding-right: 3px;
+    }
+
+    .hs1_title p {
+        line-height: 10px;
+    }
+
+    .hs_b {
+        background-color: #f5f5f5;
+        width: 100%;
+    }
+
+    .hs2 {
+        width: 90%;
+        height: 170px;
+        margin: 0 auto;
+        position: relative;
+        vertical-align: middle;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-align-items: center;
+        align-items: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        background-color: #f5f5f5;
+    }
+
+    .hs2_right {
+        width: 45%;
+        display: inline-block;
+        float: left;
+        position: relative;
+
+    }
+
+    .hs2_left {
+        width: 55%;
+        display: block;
+        float: right;
+        text-align: left;
+        line-height: 5px;
+        position: relative;
+    }
+
+    .hs2_left p {
+        font-size: 12px;
+        font-family: "Microsoft YaHei";
+    }
+
+    .hs2_left h5 {
+        color: #333333;
+        margin-top: 0px;
+        margin-bottom: 20px;
+    }
+
+    .hs2_title {
+        border-left: 2px solid deepskyblue;
+        height: 31px;
+        padding-left: 3px;
+    }
+
+    .hs2_title p {
+        line-height: 9px;
+
+    }
+
+    /*--------智慧课堂--------*/
+    .clroom_p {
+        margin: 15px 0;
+        text-indent: 2em;
+    }
+    .div1 {
+        width: 100%;
+        display: block;
+    }
+    .clroom_title {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .clroom_title h4 {
+        font-size: 16px;
+        font-family: "Microsoft YaHei";
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .clroom_title p {
+        /*line-height: 8px;*/
+        margin: 0;
+        padding: 0;
+    }
+    .div1 {
+        padding-top: 10px;
+    }
+    .div1 h4 {
+        text-align: center;
+        font-size: 18px;
+    }
+    .div2 {
+        background-color: #f7f7f7;
+        padding-top: 10px;
+    }
+    .div2 h4 {
+        text-align: center;
+        font-size: 18px;
+    }
+}
+
+/*iPhone 5s*/
+@media screen and (max-width: 370px) {
+  
+    /* hide the link until viewport size is reached */
+     a.meanmenu-reveal {
+        display: none;
+        line-height: 50px;
+    }
+
+    /* when under viewport size, .mean-container is added to body */
+    .mean-container .mean-bar {
+        float: left;
+        width: 100%;
+        position: absolute;
+        /*background: #0c1923;*/
+        padding: 4px 0;
+        min-height: 42px;
+        z-index: 999999;
+        background: rgba(43, 43, 43, 0);
+        transition-property: background;
+        -webkit-transition: background 1.5s
+
+    }
+
+    .mean-container a.meanmenu-reveal {
+        width: 22px;
+        height: 22px;
+        padding: 13px 13px 11px 13px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        cursor: pointer;
+        color: #fff;
+        text-decoration: none;
+        font-size: 16px;
+        text-indent: -9999em;
+        line-height: 22px;
+        font-size: 1px;
+        display: block;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 700;
+    }
+
+    .mean-container a.meanmenu-reveal span {
+        display: block;
+        background: #fff;
+        height: 3px;
+        margin-top: 3px;
+    }
+
+    .mean-container .mean-nav {
+        float: left;
+        width: 100%;
+        /*background: #0c1923;*/
+        margin-top: 15px;
+        /*background:rgba(43,43,43,.75);*/
+    }
+
+    .mean-container .mean-nav ul {
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        list-style-type: none;
+    }
+
+    .mean-container .mean-nav ul li {
+        position: relative;
+        float: left;
+        width: 100%;
+    }
+
+    .mean-container .mean-nav ul li a {
+        display: block;
+        float: left;
+        width: 90%;
+        padding: 1em 5%;
+        margin: 0;
+        text-align: left;
+        color: #fff;
+        /*border-top: 1px solid #383838;*/
+        /*border-top: 1px solid rgba(255,255,255,0.5);*/
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+
+    .mean-container .mean-nav ul li li a {
+        width: 80%;
+        padding: 1em 10%;
+        /*border-top: 1px solid #f1f1f1;*/
+        /*border-top: 1px solid rgba(255,255,255,0.25);*/
+        opacity: 0.75;
+        filter: alpha(opacity=75);
+        text-shadow: none !important;
+        visibility: visible;
+    }
+
+    .mean-container .mean-nav ul li.mean-last a {
+        border-bottom: none;
+        margin-bottom: 0;
+    }
+
+    .mean-container .mean-nav ul li li li a {
+        width: 70%;
+        padding: 1em 15%;
+    }
+
+    .mean-container .mean-nav ul li li li li a {
+        width: 60%;
+        padding: 1em 20%;
+    }
+
+    .mean-container .mean-nav ul li li li li li a {
+        width: 50%;
+        padding: 1em 25%;
+    }
+
+    .mean-container .mean-nav ul li a:hover {
+        /*background: #252525;*/
+        /*background: rgba(255,255,255,0.WildDogDemo);*/
+    }
+
+    .mean-container .mean-nav ul li a.mean-expand {
+        margin-top: 1px;
+        width: 26px;
+        height: 32px;
+        padding: 12px !important;
+        text-align: center;
+        position: absolute;
+        right: 0;
+        top: 0;
+        z-index: 2;
+        font-weight: 700;
+        /*background: rgba(255,255,255,0.WildDogDemo);*/
+        border: none !important;
+        /*border-left: 1px solid rgba(255,255,255,0.4) !important;*/
+        /*border-bottom: 1px solid rgba(255,255,255,0.2) !important;*/
+        /*background:rgba(43,43,43,.75);*/
+    }
+
+    /*.mean-container .mean-nav ul li a.mean-expand:hover {*/
+    /*background: rgba(0,0,0,0.9);*/
+    /*}*/
+
+    .mean-container .mean-push {
+        float: left;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        clear: both;
+    }
+
+    .mean-nav .wrapper {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    /* Fix for box sizing on Foundation Framework etc. */
+    .mean-container .mean-bar, .mean-container .mean-bar * {
+        -webkit-box-sizing: content-box;
+        -moz-box-sizing: content-box;
+        box-sizing: content-box;
+        position: relative;
+    }
+
+    .mean-remove {
+        display: none !important;
+    }
+
+    /*----------------------------*/
+    .header_content {
+        width: 100%;
+        position: relative;
+    }
+
+    .header {
+        width: 100%;
+        height: 52px;
+        position: absolute;
+    }
+
+    .header_nav {
+        width: 100%;
+        position: relative;
+        background-color: gainsboro;
+    }
+
+    .logo_content {
+        position: relative;
+    }
+
+    .content {
+        width: 100%;
+        position: absolute;
+    }
+
+    .image {
+        width: 100%;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .content img {
+        width: 100%;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .aboutus_content {
+        width: 100%;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+    .logo1 {
+        width: 33px;
+        height: 22.5px;
+        margin: auto 0;
+        /*position: absolute;*/
+        /*top: 8px;*/
+        /*left: 15px;*/
+    }
+
+    .logo2 {
+        line-height: 22.5px;
+        width: 200px;
+        height: 22.5px;
+        /*margin: auto 0;*/
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        margin-top: 8px;
+        margin-left: 15px;
+    }
+
+    .logo2 a {
+        line-height: 45px;
+        left: 15px;
+        -webkit-transition: visibility 10s;
+        visibility: hidden;
+    }
+    .touch_prompt {
+        color: #005180;
+        font-size: 15px;
+    }
+    .touch_div {
+        text-align: center;
+        margin-top: 5px;
+    }
+    .fl {
+        float: left;
+    }
+
+    /*----------关于我们-------------------------------------*/
+    .introduce_table_div {
+        width: 100%;
+        position: relative;
+     }
+    .introduce_table_div2 {
+        width: 90%;
+        position: relative;
+        margin: 0 auto;
+
+    }
+    .introduce {
+        margin: 10px 15px;
+        position: relative;
+        display: block;
+    }
+    .introduce p {
+        text-indent: 2em;
+    }
+
+    .introduce_table {
+        border-spacing: 13px;
+        border-collapse: collapse;
+        width: 100%;
+
+    }
+
+    .table_head {
+        width: 75px;
+        vertical-align: top;
+        border-spacing: 13px;
+        border-collapse: inherit;
+        padding: 0;
+
+    }
+    .table_content{
+        border-spacing: 13px;
+        border-collapse: inherit;
+        padding: 0;
+
+    }
+    /*联系我们*/
+    .floor {
+        width: 100%;
+        height: 260px;
+        background-color: #2e2e2e;
+        position: relative;
+        padding-top: 15px;
+    }
+
+    .floor h1 {
+        color: white;
+        text-align: left;
+        font-size: 16px;
+        margin: 0 auto;
+        font-weight: bold;
+    }
+
+    .contact_us {
+        width: 90%;
+        margin: 15px 20px;
+        position: relative;
+    }
+
+    .lacation h1 {
+        font-size: 15px;
+        font-family: Microsoft YaHei;
+        color: gainsboro;
+    }
+    .contact_us img {
+        display: inline-block;
+    }
+
+    .lacation {
+        width: 100%;
+        height: 20px;
+        position: relative;
+        display: block;
+        margin: 0 0 10px 0;
+        text-align: left;
+        padding-left: 10px;
+    }
+
+    .lacation img {
+        width: 13px;
+        height: 13px;
+        vertical-align: middle;
+    }
+
+    .lacation span {
+        color: gainsboro;
+        line-height: 20px;
+        text-decoration: none;
+        font-size: 10px;
+        -webkit-text-size-adjust: none;
+    }
+
+    .telephone_email {
+        width: 100%;
+        height: 15px;
+        position: relative;
+        display: block;
+        margin: 0 0 10px 0;
+        text-align: left;
+        padding-left: 10px;
+    }
+
+    .telephone_email span {
+        color: gainsboro;
+        line-height: 0px;
+        text-decoration: none;
+        font-size: 10px;
+        -webkit-text-size-adjust: none;
+    }
+
+    .telephone_email img {
+        width: 13px;
+        height: 13px;
+        vertical-align: middle;
+    }
+
+    .qr_code {
+        width: 100%;
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    #qr_code {
+        width: 258px;
+        height: 100px;
+    }
+
+    .introduce_table tr td {
+        font-family: Microsoft YaHei;
+        font-size: 15px;
+        color: #333333;
+    }
+
+    .introduce p {
+        line-height: 25px;
+        font-family: Microsoft YaHei;
+        color: #333333;
+    }
+
+    #zc {
+        font-family: "Microsoft YaHei";
+        color: white;
+        font-size: 18px;
+    }
+
+    .first_a {
+        font-family: "Microsoft YaHei";
+        font-size: 15px;
+        color: #fffefe;
+    }
+    #first_a img {
+        float: right;
+        margin-right: 5px;
+    }
+
+    .second_a {
+        font-family: "Microsoft YaHei";
+        font-size: 12px;
+        color: #fffefe;
+    }
+
+    /*--------------动态新闻------------------*/
+    .news_list {
+        width: 100%;
+        /*margin-top: 15px;*/
+        position: relative;
+    }
+
+    .news {
+        width: 95%;
+        margin: 0 auto;
+        vertical-align: middle;
+        display: flex;
+        display: -webkit-flex;
+        padding: 8px;
+        /*height: 6rem;*/
+    }
+
+    .news_img {
+        /*width: 47%;*/
+        /*float: left;*/
+        flex: 0.47;
+        -webkit-flex: 0.47;
+        display:inline-block;
+        height: 100%;
+    }
+    .news_img img {
+        display: block;
+        height: 5.5rem;
+        border-radius: 2px;
+        
+    }
+
+    .news_content {
+        position: relative;
+        flex: 0.53;
+        -webkit-flex: 0.53;
+        padding-left: 5px;
+        height: 5.5rem;
+    }
+    .news_title {
+        position: absolute;
+        top: 0;
+        /*text-overflow: ellipsis;
+        overflow: hidden;*/
+    }
+    .p_title {
+        margin: 0;
+        padding: 0;
+        font-size: 11px;
+        font-weight: bold;
+    }
+    .p_content {
+        margin: 0;
+        padding: 0;
+        font-size: 9px;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        
+    }
+    .news_c {
+        position: absolute;
+        font-size: 7px;
+        top: 18px;
+    }
+    .news_date {
+        bottom: 0;
+        height: 10px;
+        position: absolute;
+        right: 0;
+        font-size: 9px;
+
+    }
+    /*---------电子班牌---------*/
+    .card_title {
+        text-align: center;
+        margin-bottom: 15px;
+        margin-top: 15px;
+    }
+
+    .card_title p {
+        margin-top: 15px;
+        margin-bottom: 0px;
+    }
+
+    .card_title table {
+        font-size: 12px;
+    }
+
+    .class_card_img {
+        width: 50%;
+        margin: 10px auto;
+    }
+
+    .class_card_introduce {
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+
+    .class_card_td_title {
+        font-size: 11px;
+        border: 1px solid black;
+        border-collapse: separate;
+        width: 25%;
+        text-align: center;
+        font-family: "Microsoft YaHei";
+    }
+
+    .class_card_td {
+        font-size: 11px;
+        border: 1px solid black;
+        border-collapse: separate;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-family: "Microsoft YaHei";
+
+    }
+
+    .class_card_div {
+        width: 95%;
+        margin: 0 auto 30px;
+    }
+
+    /*--------家校通-----------*/
+    .hs_content {
+        width: 100%;
+        display: inline-block;
+        position: relative;
+    }
+
+    .hs1 {
+        width: 90%;
+        height: 170px;
+        margin: 0 auto;
+        position: relative;
+        vertical-align: middle;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-align-items: center;
+        align-items: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+    }
+
+    .hs1_left {
+        width: 45%;
+        display: inline-block;
+        float: left;
+        position: relative;
+
+    }
+
+    .hs1_right {
+        width: 55%;
+        display: block;
+        float: right;
+        text-align: right;
+        line-height: 5px;
+        position: relative;
+    }
+
+    .hs1_right p {
+        font-size: 10px;
+        font-family: "Microsoft YaHei";
+    }
+
+    .hs1_right h5 {
+        color: #333333;
+        margin-top: 0px;
+        margin-bottom: 20px;
+    }
+
+    .hs1_title {
+        border-right: 2px solid deepskyblue;
+        height: 29px;
+        padding-right: 3px;
+    }
+
+    .hs1_title p {
+        line-height: 10px;
+        font-size: 10px;
+
+    }
+
+    .hs_b {
+        background-color: #f5f5f5;
+        width: 100%;
+    }
+
+    .hs2 {
+        width: 90%;
+        height: 170px;
+        margin: 0 auto;
+        position: relative;
+        vertical-align: middle;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-align-items: center;
+        align-items: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        background-color: #f5f5f5;
+    }
+
+    .hs2_right {
+        width: 45%;
+        display: inline-block;
+        float: left;
+        position: relative;
+
+    }
+
+    .hs2_left {
+        width: 55%;
+        display: block;
+        float: right;
+        text-align: left;
+        line-height: 5px;
+        position: relative;
+    }
+
+    .hs2_left p {
+        font-size: 10px;
+        font-family: "Microsoft YaHei";
+    }
+
+    .hs2_left h5 {
+        color: #333333;
+        margin-top: 0px;
+        margin-bottom: 20px;
+    }
+
+    .hs2_title {
+        border-left: 2px solid deepskyblue;
+        height: 29px;
+        padding-left: 3px;
+    }
+
+    .hs2_title p {
+        line-height: 10px;
+        font-size: 10px;
+    }
+
+    /*--------智慧课堂--------*/
+    .clroom_p {
+        margin: 15px 0;
+        text-indent: 2em;
+    }
+    .div1 {
+        width: 100%;
+        display: block;
+    }
+    .clroom_title {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .clroom_title h4 {
+        font-size: 19px;
+        font-family: "Microsoft YaHei";
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .clroom_title p {
+        /*line-height: 8px;*/
+        margin: 0;
+        padding: 0;
+        font-size: 12px;
+    }
+    .div1 {
+        padding-top: 5px;
+    }
+    .div1 h4 {
+        text-align: center;
+        font-size: 14px;
+    }
+    .div2 {
+        background-color: #f7f7f7;
+        padding-top: 5px;
+    }
+    .div2 h4 {
+        text-align: center;
+        font-size: 14px;
+    }
+
+}
+
+@media screen and (min-width: 760px){
+     /* hide the link until viewport size is reached */
+    a.meanmenu-reveal {
+        display: none;
+        line-height: 50px;
+    }
+
+
+
+    /* when under viewport size, .mean-container is added to body */
+    .mean-container .mean-bar {
+        float: left;
+        width: 100%;
+        position: absolute;
+        /*background: #0c1923;*/
+        padding: 4px 0;
+        min-height: 42px;
+        z-index: 999999;
+        background: rgba(43, 43, 43, 0);
+        transition-property: background;
+        -webkit-transition: background 1.5s
+
+    }
+
+    .mean-container a.meanmenu-reveal {
+        width: 22px;
+        height: 22px;
+        padding: 13px 13px 11px 13px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        cursor: pointer;
+        color: #fff;
+        text-decoration: none;
+        font-size: 16px;
+        text-indent: -9999em;
+        line-height: 22px;
+        font-size: 1px;
+        display: block;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 700;
+    }
+
+    .mean-container a.meanmenu-reveal span {
+        display: block;
+        background: #fff;
+        height: 3px;
+        margin-top: 3px;
+    }
+
+    .mean-container .mean-nav {
+        float: left;
+        width: 100%;
+        /*background: #0c1923;*/
+        margin-top: 15px;
+        /*background:rgba(43,43,43,.75);*/
+    }
+
+    .mean-container .mean-nav ul {
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        list-style-type: none;
+    }
+
+    .mean-container .mean-nav ul li {
+        position: relative;
+        float: left;
+        width: 100%;
+    }
+
+    .mean-container .mean-nav ul li a {
+        display: block;
+        float: left;
+        width: 90%;
+        padding: 1em 5%;
+        margin-top: 10px;
+        text-align: left;
+        color: #fff;
+        /*border-top: 1px solid #383838;*/
+        /*border-top: 1px solid rgba(255,255,255,0.5);*/
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+
+    .mean-container .mean-nav ul li li a {
+        width: 80%;
+        padding: 1em 10%;
+        font-size: 25px;
+        opacity: 0.75;
+        filter: alpha(opacity=75);
+        text-shadow: none !important;
+        visibility: visible;
+    }
+
+    .mean-container .mean-nav ul li.mean-last a {
+        border-bottom: none;
+        margin-bottom: 0;
+    }
+
+    .mean-container .mean-nav ul li li li a {
+        width: 70%;
+        padding: 1em 15%;
+    }
+
+    .mean-container .mean-nav ul li li li li a {
+        width: 60%;
+        padding: 1em 20%;
+    }
+
+    .mean-container .mean-nav ul li li li li li a {
+        width: 50%;
+        padding: 1em 25%;
+    }
+
+    .mean-container .mean-nav ul li a:hover {
+        /*background: #252525;*/
+        /*background: rgba(255,255,255,0.WildDogDemo);*/
+    }
+
+    .mean-container .mean-nav ul li a.mean-expand {
+        margin-top: 1px;
+        width: 26px;
+        height: 32px;
+        padding: 12px !important;
+        text-align: center;
+        position: absolute;
+        right: 0;
+        top: 0;
+        z-index: 2;
+        font-weight: 700;
+        /*background: rgba(255,255,255,0.WildDogDemo);*/
+        border: none !important;
+        /*border-left: 1px solid rgba(255,255,255,0.4) !important;*/
+        /*border-bottom: 1px solid rgba(255,255,255,0.2) !important;*/
+        /*background:rgba(43,43,43,.75);*/
+    }
+
+    /*.mean-container .mean-nav ul li a.mean-expand:hover {*/
+    /*background: rgba(0,0,0,0.9);*/
+    /*}*/
+
+    .mean-container .mean-push {
+        float: left;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        clear: both;
+    }
+
+    .mean-nav .wrapper {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    /* Fix for box sizing on Foundation Framework etc. */
+    .mean-container .mean-bar, .mean-container .mean-bar * {
+        -webkit-box-sizing: content-box;
+        -moz-box-sizing: content-box;
+        box-sizing: content-box;
+        position: relative;
+    }
+
+    .mean-remove {
+        display: none !important;
+    }
+
+    /*----------------------------*/
+    .header_content {
+        width: 100%;
+        position: relative;
+    }
+
+    .header {
+        width: 100%;
+        height: 52px;
+        position: absolute;
+    }
+
+    .header_nav {
+        width: 100%;
+        position: relative;
+        background-color: gainsboro;
+    }
+
+    .logo_content {
+        position: relative;
+    }
+
+    .content {
+        width: 100%;
+        /*height: 700px;*/
+        position: absolute;
+    }
+
+    .image {
+        width: 100%;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .content img {
+        width: 100%;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .aboutus_content {
+        width: 100%;
+    }
+
+    p {
+            font-size: 35px;
+        color: rgba(0,0,0,0.7);
+    }
+
+    .logo1 {
+        width: 68px;
+        height: 46px;
+        margin: auto 0;
+        /*position: absolute;*/
+        /*top: 8px;*/
+        /*left: 15px;*/
+    }
+
+    .logo2 {
+        line-height: 22.5px;
+        width: 200px;
+        height: 22.5px;
+        /*margin: auto 0;*/
+        margin-top: 8px;
+        margin-left: 15px;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        display: flex;
+    }
+
+    .logo2 a {
+        line-height: 45px;
+        left: 15px;
+        -webkit-transition: visibility 10s;
+        visibility: hidden;
+    }
+
+    .fl {
+        float: left;
+    }
+
+    /*关于我们*/
+    .introduce_table_div {
+        width: 100%;
+        position: relative;
+    }
+    .introduce_table_div2 {
+        width: 90%;
+        position: relative;
+        margin: 0 auto;
+
+    }
+    .introduce {
+        margin: 10px 15px;
+        position: relative;
+        display: block;
+    }
+    .introduce p {
+        text-indent: 2em;
+        font-size: 35px;
+        line-height: 60px;
+        font-family: Microsoft YaHei;
+        color: #333333;
+    }
+
+    .introduce_table {
+        border-spacing: 13px;
+        border-collapse: collapse;
+        width: 100%;
+
+    }
+
+    .table_head {
+        width: 175px;
+        vertical-align: top;
+        border-spacing: 13px;
+        border-collapse: inherit;
+        padding: 0;
+
+    }
+    .table_content{
+        border-spacing: 13px;
+        border-collapse: inherit;
+        padding: 0;
+
+    }
+
+    .floor {
+        width: 100%;
+        height: 450px;
+        background-color: #2e2e2e;
+        position: relative;
+        padding-top: 15px;
+    }
+
+    .floor h1 {
+        color: white;
+        text-align: left;
+        font-size: 16px;
+        margin: 0 auto;
+        padding-left: 20px;
+    }
+    .touch_div {
+        text-align: center;
+        margin-top: 5px;
+    }
+    .touch_prompt {
+        color: #005180;
+        font-size: 33px;
+        
+    }
+    .contact_us {
+        width: 80%;
+        margin: 15px 20px;
+        position: relative;
+    }
+    .contact_us img {
+        display: inline-block;
+    }
+    .lacation_a h1 {
+        font-size: 35px;
+        font-family: Microsoft YaHei;
+        color: gainsboro;
+    }
+    .lacation_a {
+        width: 100%;
+        height: 20px;
+        position: relative;
+        display: block;
+        margin: 0 0 50px 0;
+        text-align: left;
+    }
+
+    .lacation {
+        width: 100%;
+        height: 20px;
+        position: relative;
+        display: block;
+        margin: 0 0 25px 0;
+        text-align: left;
+        padding-left: 20px;
+    }
+    .qr_span {
+        font-size: 20px;
+    }
+
+    .lacation img {
+        width: 25px;
+        height: 25px;
+        vertical-align: middle;
+    }
+
+    /*.lacation span {*/
+    /*color: gainsboro;*/
+    /*line-height: 20px;*/
+    /*text-decoration: none;*/
+    /*font-size: 12px;*/
+    /*-webkit-text-size-adjust: none;*/
+    /*}*/
+    .qr_span {
+        color: gainsboro;
+        line-height: 20px;
+        text-decoration: none;
+        -webkit-text-size-adjust: none;
+    }
+    .telephone_email {
+        width: 100%;
+        height: 15px;
+        position: relative;
+        display: block;
+        margin: 0 0 10px 0;
+        text-align: left;
+        padding-left: 20px;
+    }
+
+    /*.telephone_email span {*/
+    /*color: gainsboro;*/
+    /*line-height: 0px;*/
+    /*text-decoration: none;*/
+    /*font-size: 12px;*/
+    /*-webkit-text-size-adjust: none;*/
+    /*}*/
+
+    .telephone_email img {
+        width: 25px;
+        height: 25px;
+        vertical-align: middle;
+    }
+
+    .qr_code {
+        width: 100%;
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    #qr_code {
+        width: 500px;
+        height: 194px;
+    }
+
+    .introduce_table tr td {
+        font-family: Microsoft YaHei;
+        font-size: 35px;
+        color: #333333;
+    }
+
+    #zc {
+        font-family: 华文行楷;
+        color: white;
+        font-size: 18px;
+        color: rgba(0,0,0,0.7);
+    }
+
+    .first_a {
+        font-family: "Microsoft YaHei";
+        font-size: 30px;
+        color: #fffefe;
+    }
+
+    .second_a {
+        font-family: "Microsoft YaHei";
+        font-size: 12px;
+        color: #fffefe;
+    }
+
+    /*--------------动态新闻------------------*/
+    .news_list {
+        width: 100%;
+        /*margin-top: 15px;*/
+        position: relative;
+    }
+
+    .news {
+        width: 95%;
+        margin: 0 auto;
+        vertical-align: middle;
+        display: flex;
+        display: -webkit-flex;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .news_img {
+        /*width: 47%;*/
+        /*float: left;*/
+        flex: 0.47;
+        display:inline-block;
+    }
+    .news_img img {
+        display: block;
+        height: 13em;
+        border-radius: 5px;
+    }
+
+    .news_content {
+        position: relative;
+        flex: 0.53;
+        padding-left: 5px;
+    }
+    .news_title {
+        position: absolute;
+        top: 0;
+        /*font-size: 13px;*/
+        /*font-weight: bold;*/
+    }
+    .p_title {
+        font-size: 2.2rem;
+        font-weight: bold;
+        margin: 0;
+        padding: 0;
+    }
+    .p_content {
+        font-size: 2rem;
+        margin-top: 1px;
+    }
+    .news_c {
+        position: absolute;
+        font-size: 9px;
+        top: 18px;
+    }
+    .news_date {
+        bottom: 20px;
+        height: 10px;
+        position: absolute;
+        font-size: 1.5rem;
+        right: 0;
+
+    }
+    /*---------电子班牌---------*/
+    .card_title {
+        text-align: center;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .card_title h4 {
+        font-size: 35px;
+    }
+
+    .card_title p {
+        margin-top: 15px;
+        margin-bottom: 0px;
+    }
+
+    .card_title table {
+        font-size: 12px;
+    }
+
+    .class_card_img {
+        width: 50%;
+        margin: 10px auto;
+    }
+
+    .class_card_introduce {
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+
+    .class_card_td_title {
+        font-size: 22px;
+        border: 1px solid black;
+        border-collapse: separate;
+        width: 25%;
+        text-align: center;
+        font-family: "Microsoft YaHei";
+    }
+
+    .class_card_td {
+        font-size: 22px;
+        border: 1px solid black;
+        border-collapse: separate;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-family: "Microsoft YaHei";
+
+    }
+
+    .class_card_div {
+        width: 95%;
+        margin: 0 auto 30px;
+    }
+
+    /*--------家校通-----------*/
+    .hs_content {
+        width: 100%;
+        display: inline-block;
+        position: relative;
+    }
+
+    .hs1 {
+        width: 90%;
+        height: 330px;
+        margin: 0 auto;
+        position: relative;
+        vertical-align: middle;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-align-items: center;
+        align-items: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+    }
+
+    .hs1_left {
+        width: 45%;
+        display: inline-block;
+        float: left;
+        position: relative;
+
+    }
+
+    .hs1_right {
+        width: 55%;
+        display: block;
+        float: right;
+        text-align: right;
+        /*line-height: 5px;*/
+        position: relative;
+    }
+
+    .hs1_right p {
+        font-size: 20px;
+        font-family: "Microsoft YaHei";
+    }
+
+    .hs1_right h5 {
+        color: #333333;
+        margin-top: 0px;
+        margin-bottom: 20px;
+        font-size: 30px;
+    }
+
+    .hs1_title {
+        border-right: 5px solid deepskyblue;
+        height: 54px;
+        padding-right: 10px;
+    }
+
+    .hs1_title p {
+        line-height: 16px;
+
+    }
+
+    .hs_b {
+        background-color: #f5f5f5;
+        width: 100%;
+    }
+
+    .hs2 {
+        width: 90%;
+        height: 330px;
+        margin: 0 auto;
+        position: relative;
+        vertical-align: middle;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-align-items: center;
+        align-items: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        background-color: #f5f5f5;
+    }
+
+    .hs2_right {
+        width: 45%;
+        display: inline-block;
+        float: left;
+        position: relative;
+
+    }
+
+    .hs2_left {
+        width: 55%;
+        display: block;
+        float: right;
+        text-align: left;
+        /*line-height: 5px;*/
+        position: relative;
+    }
+
+    .hs2_left p {
+        font-size: 20px;
+        font-family: "Microsoft YaHei";
+    }
+
+    .hs2_left h5 {
+        color: #333333;
+        margin-top: 0px;
+        margin-bottom: 20px;
+        font-size: 30px;
+        
+    }
+
+    .hs2_title {
+        border-left: 5px solid deepskyblue;
+        height: 54px;
+        padding-left: 10px;
+    }
+
+    .hs2_title p {
+        line-height: 16px;
+
+    }
+
+    /*--------智慧课堂--------*/
+    .clroom_p {
+        margin: 15px 0;
+        text-indent: 2em;
+    }
+    .div1 {
+        width: 100%;
+        display: block;
+    }
+    .clroom_title {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .clroom_title h4 {
+        font-size: 16px;
+        font-family: "Microsoft YaHei";
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .clroom_title p {
+        /*line-height: 8px;*/
+        margin: 0;
+        padding: 0;
+    }
+    .div1 {
+        padding-top: 10px;
+    }
+    .div1 h4 {
+        text-align: center;
+        font-size: 35px;
+    }
+    .div2 {
+        background-color: #f7f7f7;
+        padding-top: 10px;
+    }
+    .div2 h4 {
+        text-align: center;
+        font-size: 35px;
+    }
+    .last_img {
+       width: 100%;
+    }
+}

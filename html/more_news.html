@@ -1,0 +1,85 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>臻财智慧科技</title>
+    <link rel="stylesheet" href="../meanmenu.css" media="all" />
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+    <link rel="stylesheet" href="../css/reset.css" />
+</head>
+
+<body>
+    <div class="news_bar">
+        <p>&nbsp;新闻动态</p>
+    </div>
+    &nbsp;
+    <div class="content">
+        <!--Start 新闻动态-->
+        <div id="news-data" class="news_list">
+            <div id="news" v-for="item in items" class="news">
+                <div class="news_img">
+                    <img v-bind:src="item.thumbnailsurl" id="news_img">
+                </div>
+                <div class="news_content">
+                    <div class="news_title">
+                        <p class="p_title">{{item.title}}</p>
+                        <p class="p_content"><a href="http://mp.weixin.qq.com/s/HjbN83D7yKq77xWkxAmLlQ">不过，图片增加了canvas操作的复杂度：必须等到图片完全加载后才能对其进行操作。</a></p>
+                    </div>
+
+                    <!--<div class="news_c">
+                        <p><a href="http://mp.weixin.qq.com/s/HjbN83D7yKq77xWkxAmLlQ"><span>不过，图片增加了canvas操作的复杂度：必须等到图片完全加载后才能对其进行操作。浏览器通常会在页面脚本执行的同时异步加载图片。如果试图在图片未完全加载之前就将</span>
+                        </a></p>
+                    </div>-->
+
+                    <div class="news_date">
+                        <span>{{item.createtime}}</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--End 新闻动态-->
+
+        <!--Start 联系我们-->
+        <!--<div class="floor">
+            <div class="contact_us">
+                <div class="lacation">
+                    <h1>联系我们</h1>
+                </div>
+                <div class="lacation">
+                    <img src="../image/locate.png">
+                    <span class="qr_span">浙江省杭州市滨江区火炬大道581号三维大厦C座504</span>
+                </div>
+                <div class="telephone_email">
+                    <img src="../image/telephone.png">
+                    <span class="qr_span">0571-88811981</span>
+                    &nbsp&nbsp&nbsp&nbsp&nbsp
+                    <img src="../image/email.png">
+                    <span class="qr_span">xl＠zcxiaolian.com</span>
+                </div>
+            </div>-->
+        <!--Start 新闻动态-->
+
+        <!--Start 二维码-->
+        <!--<div class="qr_code">
+                <img id="qr_code" src="../image/qr_code.png">
+            </div>
+            <div style="text-align: center">
+                <span style="color: #005180; font-family: 楷体">长按识别图中二维码，关注臻财智慧科技</span>
+            </div>-->
+        <!--End 二维码-->
+
+    </div>
+    <script src="../org/vue.min.js"></script>
+    <script src="../js/news.js"></script>
+
+    <script src="../org/jquery-1.11.1.min.js"></script>
+    <script src="../org/jquery.meanmenu.js"></script>
+    <script src="../js/css.js"></script>
+</body>
+
+</html>
